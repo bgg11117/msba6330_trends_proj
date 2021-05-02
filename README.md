@@ -1,4 +1,4 @@
-# msba6330_trends_proj
+# MSBA6330_Trends_Proj
 
 ## Combatting Dashboard Fatigue: Voice-Powered Queries in AWS
 
