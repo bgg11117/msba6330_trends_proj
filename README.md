@@ -8,9 +8,12 @@ Voice-powered queries can streamline access to information, and can address area
 
 In our solution, we will leverage S3, Athena, Lambda function, DynamoDB and Cloudwatch in the backend, and a voice-based user interface through a custom Alexa skill on the front end.
 
+![pipeline chart](https://github.com/bgg11117/msba6330_trends_proj/blob/main/pipeline_chart.png)
 
+There are many different ways that companies/organizations can take advantage of voice powered analytics
 
-![flow chart](https://github.com/bgg11117/msba6330_trends_proj/blob/main/pipeline_chart.png)
+![business application](https://github.com/bgg11117/msba6330_trends_proj/blob/main/business_application.png)
+
 
 - [Handout](https://github.com/bgg11117/msba6330_trends_proj/blob/main/BDA_Handout.pdf)
 - [Presentation Slide](https://github.com/bgg11117/msba6330_trends_proj/blob/main/BDA_Presentation.pdf)
