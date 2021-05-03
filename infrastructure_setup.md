@@ -21,7 +21,7 @@ Create queries to extract pre-identified metrics, copy these queries to a text e
 ## Step 4: Create a Lambda function to query Athena 
 Create a lambda function from scratch and name it as "vpa_lambda_athena_poller"; under Role leave the default value of Choose an existing role and nder existing role, select "VPALambdaAthenaPollerRole"
 
-Under "code", copy and paste the Function code (in python) provided: (some link) 
+Under "code", copy and paste the Function code (in python) provided: https://github.com/bgg11117/msba6330_trends_proj/blob/main/voice_powered_analytics_code.ipynb 
 
 Under "configuration", click on "Environment" and set up environment variables listed below 
 ![image](https://user-images.githubusercontent.com/76879882/116839025-49691680-ab96-11eb-90c9-7a754b4aa665.png)
@@ -47,5 +47,7 @@ ref: https://github.com/awslabs/voice-powered-analytics/blob/master/README-Alexa
 Copy the Lambda ARN from the Lambda function created in previous step, and paste it to the "Default Region" in the SAVEPOINT in Alexa Skill, click Save. 
 
 ## Congradulation, you are all set and ready to test your skill 
+![image](https://user-images.githubusercontent.com/76879882/116908351-66d6c880-ac08-11eb-93ca-0f336c0a5bf4.png)
+
 
 
